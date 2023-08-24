@@ -6,18 +6,44 @@
   text-decoration: none;
 }
 
-/* HEADER */
+/* ☁️ HEADER */
 
 header {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grey;
 }
 
 .h1 {
   font-family: "Acme", sans-serif;
   font-size: 25px;
   font-style: italic;
+  background-color: aqua;
 }
 
 .h1_nav {
   background-color: red;
+  padding-left: 100vh;
+  padding-right: 100vh;
+
+}
+
+.ul_nav_sup{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 📰 MAIN */
+
+.seccion_principaL{
+  padding: 100vh;
+  background-color: bisque;
+}
+
+.seccion_sobre_mi{
+  background-color: coral;
+  display: flex;
+  align-items: flex-end;
 }
